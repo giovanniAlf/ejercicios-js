@@ -1,0 +1,48 @@
+
+body{
+
+background-color: beige;
+
+}
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: var(--pagination-padding);
+    margin: var(--pagination-margin);
+    background-color: white;
+    flex-direction: column;
+
+
+}
+
+.pagination a {
+    padding: var(--item-padding);
+    margin: var(--item-margin);
+    border: 1px solid var(--border-color);
+    text-decoration: none;
+    color: var(--text-color);
+    border-radius: var(--border-radius);
+    transition: background-color 0.3s ease;
+    font-size: 21px;
+    position: relative;
+    top: 10px;
+}
+
+.pagination a:hover {
+    background-color: var(--hover-bg-color);
+}
+
+.pagination a.active {
+    background-color: var(--active-bg-color);
+    color: var(--active-text-color);
+}
+
+.pagination a.prev, .pagination a.next {
+    font-weight: bold;
+}
+.ejercicio{
+
+margin: 20px;
+}
