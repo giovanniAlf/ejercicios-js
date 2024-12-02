@@ -9,7 +9,8 @@ let b = prompt("ingrese el segundo numero");
 let resultado = a / b;
 
 if(resultado == 0)
-  alert("error de digitacion")
+  alert("error de digitacion");
+
 
 alert(resultado)
 
