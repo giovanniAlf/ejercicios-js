@@ -26,6 +26,8 @@ background-color: beige;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+
  
 }
 .parrafo{
@@ -33,4 +35,15 @@ background-color: beige;
   justify-content: center;
   display: flex;
 
+}
+
+navbarrr{
+
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+  font-size: 60px;
 }
