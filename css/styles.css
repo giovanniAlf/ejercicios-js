@@ -17,7 +17,7 @@
 }
 body{
 
-background-color: beige;
+background-color: rgb(63, 63, 46);
 
 }
 .titulo{
@@ -37,13 +37,64 @@ background-color: beige;
 
 }
 
-navbarrr{
+.navbarrr{
 
-  color: blue;
+  color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   top: 50px;
   font-size: 60px;
+  text-align: center;
+}
+
+.navbarrr:hover{
+
+  color: rgb(0, 0, 100);
+  transition: 2s;
+
+}
+
+.boton_ejercicio{
+
+  background-color: rgb(207, 194, 10);
+
+
+
+}
+
+.titulo_pagina{
+
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+
+}
+
+
+.parrafo_pagina{
+
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-content: center;
+
+}
+.cuerpo_pagina{
+
+background-color: rgb(250, 250, 189);
+
+}
+.nombre{
+
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 5vh;
+
 }
