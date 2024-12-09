@@ -16,7 +16,7 @@ if (edad < 4) {
 
 
 if (precio === "Edad no válida") {
-    console.log("Has introducido una edad no válida.");
+    alert("Has introducido una edad no válida.");
 } else {
-    console.log(`El precio de tu entrada es: ${precio}`);
+    alert(`El precio de tu entrada es: ${precio}`);
 }

@@ -5,8 +5,8 @@ Base=prompt('Ingrese el valor de la Base','');
 
 Altura=prompt('Ingrese el valor de la Altura','');
 
-
 Area=Base*Altura;
+
 
 Perimetro=(2*Altura)+(2*Base);
 alert(`El Area del Rectangulo es: ${Area}`);
