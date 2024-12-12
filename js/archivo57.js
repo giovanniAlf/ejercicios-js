@@ -1,4 +1,4 @@
-let nota = 8.5;  // Ejemplo
+let nota = 8.5;  
 
 if (nota >= 9.1) {
     console.log("Excelente");
