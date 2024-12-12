@@ -9,3 +9,5 @@ let cantidadLapiceros = 8;
 let total = (libros * cantidadLibros) + (cuadernos * cantidadCuadernos) + (lapiceros * cantidadLapiceros);
 
 console.log("Monto total de la venta:", total);
+
+// kl
